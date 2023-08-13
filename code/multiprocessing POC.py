@@ -2,9 +2,7 @@
 # Overview
 #
 # A simple python script that uses
-# threads. Goal is  to sucessfully
-# use threads. Not concenered with
-# performance.
+# multiprocessing.
 ##########################################
 
 # %%
