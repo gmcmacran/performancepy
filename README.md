@@ -1,7 +1,7 @@
 
 # Project overview
 
-This repo explores different ways off making python fast.
+This repo explores different ways of making python fast.
 
 Ideas explored:
 
@@ -17,8 +17,8 @@ a problem for another day.
 
 conda create -n tempEnv python=3.10 cython ipykernel
 
-fibonacci.pyx defines two cython functions. cython_performance_test does
-a simple benchmark.
+fibonacci.pyx defines two cython functions. cython_performance_test uses
+these functions as if they are regular python functions.
 
 # Threading POC
 
@@ -29,5 +29,5 @@ A very simple example of multithreading in python.
 A very simple example of multiprocessing in python. Per official docs,
 multiprocessing does not work with an interactive console! Thus this
 method is not very useful to me. Code should work if executed the
-correct way. However, I did not bother to figure out how to call it
+correct way. However, I did not bother figuring out how to execute it
 correctly. I am always in an interactive console.
