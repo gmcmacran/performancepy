@@ -15,7 +15,7 @@ Python in an interpreted language that can be slow at times. Cython is a
 high performance language with syntax very similar to python. Cython is
 translated to C or C++ and then compiled. This repo contains a simple
 proof of concept where python code with **zero** changes is compiled and
-performance improves are observed.
+performance improvements are observed.
 
 fibonacci.pyx defines two cython functions. cython_performance_test uses
 these functions as if they are regular python functions.
